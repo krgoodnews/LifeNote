@@ -16,6 +16,17 @@ class MemosVC: UITableViewController {
 		
 		view.backgroundColor = .pWhite
 		navigationItem.title = "It's all yours."
+		
+		
+		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapAdd))
+	}
+	
+	@objc private func didTapAdd() {
+		let destVC = CreateMemoVC()
+		
+		let naviVC = CustomNavigationController(rootViewController: destVC)
+		
+		present(naviVC, animated: true, completion: nil)
 	}
 }
 

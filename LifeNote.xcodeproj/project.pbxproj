@@ -14,6 +14,7 @@
 		EF9761A81FBF454B0099CABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9761A61FBF454B0099CABF /* LaunchScreen.storyboard */; };
 		EF9761B01FBF47710099CABF /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9761AF1FBF47710099CABF /* StyleGuide.swift */; };
 		EF9761B21FBF55DA0099CABF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9761B11FBF55DA0099CABF /* UIColor.swift */; };
+		EF9761B51FBF5AC30099CABF /* CreateMemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9761B41FBF5AC30099CABF /* CreateMemoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF9761A91FBF454B0099CABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF9761AF1FBF47710099CABF /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		EF9761B11FBF55DA0099CABF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EF9761B41FBF5AC30099CABF /* CreateMemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMemoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EF9761AF1FBF47710099CABF /* StyleGuide.swift */,
 				EF97619D1FBF454B0099CABF /* AppDelegate.swift */,
 				EF97619F1FBF454B0099CABF /* MemosVC.swift */,
+				EF9761B41FBF5AC30099CABF /* CreateMemoVC.swift */,
 				EF9761A11FBF454B0099CABF /* Main.storyboard */,
 				EF9761A41FBF454B0099CABF /* Assets.xcassets */,
 				EF9761A61FBF454B0099CABF /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9761A01FBF454B0099CABF /* MemosVC.swift in Sources */,
+				EF9761B51FBF5AC30099CABF /* CreateMemoVC.swift in Sources */,
 				EF9761B21FBF55DA0099CABF /* UIColor.swift in Sources */,
 				EF97619E1FBF454B0099CABF /* AppDelegate.swift in Sources */,
 				EF9761B01FBF47710099CABF /* StyleGuide.swift in Sources */,
